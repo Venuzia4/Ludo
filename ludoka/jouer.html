@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/jouer.css">
+	<title>Document</title>
+</head>
+
+<body>
+
+    <img src="./img/deco.jpg" alt="deco" class="responsive">
+
+<div>
+<form id="Form" name="formu">
+<p>
+  	<span id="showMultiplication1"></span>
+    <input type="radio" id="multiple1" name="checkbox1" value="1">
+    vrai 
+    <input type="radio" id="multiple1"name="checkbox1" value="2"  >
+    faux 
+    <span id="yes1"></span>
+    <span id="error1"></span>
+</p>
+<p>
+    <span id="showMultiplication2"></span>
+    <input type="radio" id="multiple2" name="checkbox2" value="1">
+    vrai 
+    <input type="radio" id="multiple2"name="checkbox2" value="2"  >
+    faux </p>
+     <span id="yes2"></span>
+    <span id="error2"></span>
+</p>
+<p>
+    <span id="showMultiplication3"></span>
+    <input type="radio" id="multiple3" name="checkbox3" value="1">
+    vrai 
+    
+    <input type="radio" id="multiple3"name="checkbox3" value="2"  >
+    faux </p>
+    <span id="yes3"></span>
+    <span id="error3"></span>
+</p>
+<p>
+    <span id="showMultiplication4"></span>
+    <input type="radio" id="multiple4" name="checkbox4" value="1">
+    vrai 
+  
+    <input type="radio" id="multiple4"name="checkbox4" value="2"  >
+    faux </p>
+    <span id="yes4"></span>
+    <span id="error4"></span>
+</p>
+<p>
+    <span id="showMultiplication5"></span>
+    <input type="radio" id="multiple5" name="checkbox5" value="1">
+    vrai
+    
+    <input type="radio" id="multiple5"name="checkbox5" value="2"  >
+    faux </p>
+    <span id="yes5"></span>
+    <span id="error5"></span>
+</p>
+<p>
+    <span id="showMultiplication6"></span>
+    <input type="radio" id="multiple6" name="checkbox6" value="1">
+    vrai
+    <input type="radio" id="multiple6"name="checkbox6" value="2"  >
+    faux </p>
+    <span id="yes6"></span>
+    <span id="error6"></span>
+</p>
+<p>
+    <span id="showMultiplication7"></span>
+    <input type="radio" id="multiple7" name="checkbox7" value="1">
+    vrai 
+    
+    <input type="radio" id="multiple7"name="checkbox7" value="2"  >
+    faux </p>
+    <span id="yes7"></span>
+    <span id="error7"></span>
+</p><p>
+    <span id="showMultiplication8"></span>
+    <input type="radio" id="multiple8" name="checkbox8" value="1">
+    vrai 
+   
+    <input type="radio" id="multiple8"name="checkbox8" value="2"  >
+    faux </p>
+     <span id="yes8"></span>
+    <span id="error8"></span>
+</p>
+  <p align="center">
+    <input type="hidden" name="prim2">
+    <input type="button" id="Score" value="Valider " name="bouton2" >
+    <input style="display: none"type="button" id="newgame" value="Nouvelle partie" name="bouton2" >
+  </p>
+  <p align="center"><b>Vous 
+    avez fait 
+    <span id="fautes">0</span>
+    erreurs</b>
+	</p>
+	<p align="center"><b>votre 
+	    score est de
+	    <span id="showScore">0</span>
+	    points </b>
+	</p>
+    <img class="pic" src="./img/petit.png">
+      </form>
+      <section>
+        <div class="bouton">
+            <a align="center" class="btn" href="accueil.html"><span>Accueil</span></a>
+            <a align="center"class="btn"  href="enseignement.html"><span>Enseignement</span></a>
+        </div>
+    </section>
+    
+	<script src="js/jouer.js"></script>
+</body>
+</html>

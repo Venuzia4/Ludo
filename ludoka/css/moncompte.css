@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width:1000%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+}
+
+body{
+  background-color: #C4D7ED;
+}
+
+h1{
+	text-align: center;
+	padding: 20px;
+	font-family: 'Amarante', cursive;
+	font-size: 50px;
+	color: black;
+
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	color:#375D81; 
+
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.jeu{
+	display:flex;
+	justify-content:space-between;
+	text-align:center;
+	padding: 70px;
+	color: black;
+}
+.mat img {
+	width: 50%;
+}
+.geo img{
+	width: 50%;
+}
+@media only screen and (max-width: 500px){
+
+}

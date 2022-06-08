@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width:1000%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+}
+p{
+	text-align: center;
+	margin:10px;
+	 
+}
+
+body{
+	background-color:#C4D7ED;
+}
+.pic{
+	width: 150px;
+}
+
+#Form{
+	border: solid;
+	text-align: center;
+	border-radius: 30px;
+	margin: 20px;
+	background-color:#E1E6FA;
+
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.bouton{
+	display: flex;
+	justify-content: space-around;
+	margin:80px;
+
+	
+}
+.btn{
+  display:flex;
+  color: white;
+  width: 150px;
+  background:#375D81;
+  padding: 1em;
+  border-radius: 40px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+ 
+ 
+
+   }
+
+  #newgame{
+  	text-align:center;
+  	margin: auto;
+  	padding: auto;
+  }
+
+  #fautes{
+  	color:red;
+  }
+
+  .btn span {
+	width: 100%;
+	text-align: center;

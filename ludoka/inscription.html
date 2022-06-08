@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="./css/inscription.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+	<title>inscription</title>
+</head>
+
+<body>
+	<img src="./img/deco.jpg" alt="deco" class="responsive">
+	<header class="page-header">
+		<h1>inscription</h1>
+	</header>
+	<div class="main">
+		<label id="child"for="parent">Parent</label>
+		<input type="radio" value="parent" id="parent" name="identite">
+		<label id="child" for="professeur">Professeur</label>
+		<input type="radio" value="Professeur" id="professeur" name="identite">
+	</div>
+
+
+		<form>
+			<div>
+			<label for="nom">Nom*</label>
+			<input type="text" name="nom" id="fName" placeholder="Entrez votre nom">
+		</div>
+		<div>
+			<label for="prenom">Prénom*</label>
+			<input type="text" name="prenom"id="lName" placeholder="Entrez votre prénom">	
+		</div>
+		<div>
+			<label for="email">email*</label>
+			<input type="email" name="email" id="mail">
+		</div>
+		<div>
+			<label for="age">Age</label>
+			<input type="number" name="age"id="old" min="1" max="100">
+		</div>
+		<div><span class="button" id="submit">
+		Inscription
+		</span></div>
+	</div>
+</form>
+<!--<img src="./img/petit.png">-->
+<script src="./js/index.js"></script>
+ <script src="./js/connexion.js"></script>
+<!--<footer>
+	<p>copyright &copy;venuzia 2021-All Right reserved</p>
+</footer>-->
+	
+</body>
+</html>
